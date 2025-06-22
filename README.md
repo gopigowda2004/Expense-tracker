@@ -8,24 +8,16 @@ A full-stack web application to manage your personal expenses — built using **
 
 ## 🚀 Tech Stack
 
-### 🖥️ Backend
 - Java 21
 - Spring Boot 3.2.5
 - Spring Security + JWT
 - PostgreSQL
 - JPA (Hibernate)
 - Maven
-
-### 🌐 Frontend
-- React.js (Coming soon)
-- Axios for API calls
-- React Router DOM
-
-### 🛠️ Tools & Libraries
+- React.js
 - Postman – API testing
 - Git & GitHub – Version control
-- Eclipse IDE – Backend development
-- VS Code – Frontend development
+- VS Code
 
 ---
 
@@ -67,15 +59,3 @@ A full-stack web application to manage your personal expenses — built using **
 | PUT    | `/expenses/{id}`        | Update expense (auth)    |
 | DELETE | `/expenses/{id}`        | Delete expense (auth)    |
 
----
-
-## 🧪 Running Locally
-
-```bash
-# Clone repo
-git clone https://github.com/gopigowda2004/Expense-tracker.git
-cd Expense-tracker
-
-# Run backend
-cd Backend
-./mvnw spring-boot:run
